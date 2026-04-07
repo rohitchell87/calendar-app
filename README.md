@@ -1,39 +1,86 @@
-# Interactive Wall Calendar
+# 📅 Calendar Web App
 
-This project implements an interactive React calendar component inspired by a wall calendar design.
+A responsive and interactive calendar web application built using HTML, CSS, and JavaScript.
+This project was developed as part of my preparation for the TUF internship to strengthen frontend fundamentals and UI development skills.
 
-## Features
+---
 
-- Wall calendar aesthetic with hero imagery and clean layout
-- Date range selector with start / end / in-range highlight states
-- Notes area for month-level notes or range-specific notes
-- Fully responsive design for desktop and mobile
-- Local persistence with `localStorage`
+## 🚀 Live Demo
 
-## Run locally
+🌐 https://rohitchell87.github.io/calendar-app/
 
-Install dependencies:
+---
 
-```bash
-npm install
+## ✨ Features
+
+* 📆 Dynamic calendar rendering
+* 🔄 Month navigation (previous/next)
+* 🎯 Highlights current date
+* 💡 Clean and minimal UI
+* 📱 Fully responsive design
+
+---
+
+## 🛠 Tech Stack
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+---
+
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+
+<img width="1918" height="944" src="https://github.com/user-attachments/assets/5679a6ce-f66f-47c2-844c-39e84818d142" />
+
+### 📆 Calendar Navigation
+
+<img width="1918" height="944" src="https://github.com/user-attachments/assets/cd1165b2-0891-4fa3-a4e8-55c05ce4deb0" />
+
+---
+
+## 📂 Project Structure
+
+```
+calendar-app/
+│── index.html
+│── style.css
+│── script.js
 ```
 
-Start the development server:
+---
+
+## ⚙️ How to Run Locally
 
 ```bash
-npm run dev
+git clone https://github.com/rohitchell87/calendar-app.git
+cd calendar-app
 ```
 
-Open the local URL shown by Vite.
+Open `index.html` in your browser.
 
-## Implementation details
+---
 
-- `src/App.jsx`: main calendar component, range selection logic, note persistence, responsive UI
-- Uses React + Vite + Tailwind CSS
-- Designed as a frontend-only component with no backend
+## 🧠 What I Learned
 
-## Notes
+* DOM manipulation using JavaScript
+* Handling date and calendar logic
+* Responsive UI design
+* Structuring frontend projects
 
-- General notes are saved per month.
-- If a date range is selected, notes are saved specifically for that range.
-- The layout adapts from a stacked mobile layout to a split desktop view.
+---
+
+## 🎯 Future Improvements
+
+* Add event creation feature
+* Store events using local storage
+* Add dark mode 🌙
+* Improve UI animations
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
